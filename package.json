@@ -1,5 +1,6 @@
 {
   "version": "0.1.0",
+  "description": "Little function to call mutate against multiple cached keys of SWR",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
