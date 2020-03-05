@@ -1,0 +1,56 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepublishOnly": "tsdx build"
+  },
+  "peerDependencies": {
+    "swr": ">=0.2.0-beta.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./setup-test.ts"
+    ]
+  },
+  "name": "swr-mutate-many",
+  "author": "Sergio Xalambrí",
+  "module": "dist/swr-mutate-many.esm.js",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.5.0",
+    "@types/glob-to-regexp": "^0.4.0",
+    "@types/jest": "^25.1.3",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "husky": "^4.2.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "swr": "0.2.0-beta.0",
+    "tsdx": "^0.12.3",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "glob-to-regexp": "^0.4.1"
+  }
+}
