@@ -1,5 +1,10 @@
 # SWR Mutate Many
 
+![CI](https://github.com/sergiodxa/swr-mutate-many/workflows/CI/badge.svg)
+![Publish](https://github.com/sergiodxa/swr-mutate-many/workflows/Publish/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ca0f1ecf8819788f7811/maintainability)](https://codeclimate.com/github/sergiodxa/swr-mutate-many/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ca0f1ecf8819788f7811/test_coverage)](https://codeclimate.com/github/sergiodxa/swr-mutate-many/test_coverage)
+
 Little function to call mutate against multiple cached keys of SWR.
 
 ## Usage
