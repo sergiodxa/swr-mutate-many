@@ -38,7 +38,7 @@
   "module": "dist/swr-mutate-many.esm.js",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.1.1",
-    "@testing-library/react": "^9.5.0",
+    "@testing-library/react": "^10.0.5",
     "@types/glob-to-regexp": "^0.4.0",
     "@types/jest": "^25.1.3",
     "@types/react": "^16.9.23",
