@@ -12,10 +12,8 @@ Little function to call mutate against multiple cached keys of SWR.
 Install it
 
 ```sh
-$ yarn add swr@0.2.0-beta.0 swr-mutate-many
+$ yarn add swr swr-mutate-many
 ```
-
-> Note: This library requires SWR to expose the cache, this only happen since v0.2.0-beta.0 of SWR right now
 
 Import it and use it
 
